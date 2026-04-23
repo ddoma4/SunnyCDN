@@ -1,27 +1,28 @@
-# ☀️ SunnyCDN
+# SunnyCDN
 
-**SunnyCDN** is an open-source, plug-and-play CDN (Content Delivery Network) built with Vue.
-It’s designed to serve data and assets files quickly and efficiently with minimal setup.
+**SunnyCDN** is an open-source file sharing platform built with **Vue**. It is designed to be flexible, customizable, and easy to manage.
 
----
+## Features
 
-## 🚀 Overview
+- 🎨 **Customizable UI**
+  - Modify the CSS to create a unique look
+  - Or use the default styling out of the box
 
-SunnyCDN is a file shareing software built with VUE. You can edit the css for unique looks or just leave it as it is. SunnyCDN offers file shareing for users, admins can manage users (create or delete). Admins also can manage files so as deleteing files, grant permissions and overwrite files. So SunnyCDN offers unique file shareing while being open-source and editable.
+- 📁 **File Sharing**
+  - Users can upload and share files
 
----
+- 👤 **User Management (Admin)**
+  - Create users
+  - Delete users
 
-## ✨ Features
+- 🛠️ **File Management (Admin)**
+  - Delete files
+  - Grant permissions
+  - Overwrite existing files
 
-* ⚡ Fast and lightweight
-* 🔌 Plug & play integration
-* 🌐 Open-source and customizable
-* 📦 Modular architecture
-* 🔄 Dynamic data loading (e.g. user-based or language-based)
-* 🎨 Built with Vue
-* 🗂 Clean and organized file structure
+## Summary
 
----
+SunnyCDN provides a customizable and open-source solution for file sharing, giving administrators full control while remaining easy to extend and adapt.
 
 ## 🛠 Installation
 
