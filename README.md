@@ -1,13 +1,13 @@
 # ☀️ SunnyCDN
 
 **SunnyCDN** is an open-source, plug-and-play CDN (Content Delivery Network) built with Vue.
-It’s designed to serve data, assets, and configuration files quickly and efficiently with minimal setup.
+It’s designed to serve data and assets files quickly and efficiently with minimal setup.
 
 ---
 
 ## 🚀 Overview
 
-SunnyCDN is a lightweight data server that allows developers to easily distribute content across applications. Whether you're serving JSON, static assets, or dynamic resources like language files, SunnyCDN provides a simple and scalable solution.
+SunnyCDN is a file shareing software built with VUE. You can edit the css for unique looks or just leave it as it is. SunnyCDN offers file shareing for users, admins can manage users (create or delete). Admins also can manage files so as deleteing files, grant permissions and overwrite files. So SunnyCDN offers unique file shareing while being open-source and editable.
 
 ---
 
@@ -23,24 +23,12 @@ SunnyCDN is a lightweight data server that allows developers to easily distribut
 
 ---
 
-## 📁 Project Structure
-
-```
-src/
-├── css/          # Global styles (reset, colors, layout)
-├── js/           # Scripts and utilities
-├── lang/         # Language JSON files
-├── App.vue       # Root Vue component
-```
-
----
-
 ## 🛠 Installation
 
 ```bash
-git clone https://github.com/your-username/sunnycdn.git
+git clone https://github.com/ddoma4/sunnycdn.git
 cd sunnycdn
-npm install
+bun install
 ```
 
 ---
@@ -48,7 +36,7 @@ npm install
 ## ▶️ Development
 
 ```bash
-npm run dev
+bun dev
 ```
 
 Starts the development server (Vite).
@@ -58,7 +46,7 @@ Starts the development server (Vite).
 ## 📦 Build
 
 ```bash
-npm run build
+bun build
 ```
 
 Builds the project for production.
@@ -71,22 +59,13 @@ SunnyCDN is designed to be **plug-and-play**.
 
 Example: dynamically loading a language file
 
-```js
-const lang = await import(`../lang/en.json`)
-console.log(lang.default)
-```
-
-You can also integrate it with external systems using `window.postMessage` or APIs to dynamically update content.
-
 ---
 
 ## 🌍 Use Cases
 
 * Serving language/localization files
-* Hosting configuration data
 * Lightweight asset delivery
 * Frontend-driven CDN systems
-* Game/UI data distribution (e.g. overlays, dashboards)
 
 ---
 
