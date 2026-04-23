@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+# SunnyCDN
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**SunnyCDN** is an open-source file sharing platform built with **Vue**. It is designed to be flexible, customizable, and easy to manage.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- 🎨 **Customizable UI**
+  - Modify the CSS to create a unique look
+  - Or use the default styling out of the box
+
+- 📁 **File Sharing**
+  - Users can upload and share files بسهولة
+
+- 👤 **User Management (Admin)**
+  - Create users
+  - Delete users
+
+- 🛠️ **File Management (Admin)**
+  - Delete files
+  - Grant permissions
+  - Overwrite existing files
+
+## Summary
+
+SunnyCDN provides a customizable and open-source solution for file sharing, giving administrators full control while remaining easy to extend and adapt.
